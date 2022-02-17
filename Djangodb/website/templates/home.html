@@ -1,0 +1,7 @@
+<h3> Hello World <h3> 
+<h4> Here is the list of members listed in the database <h4>
+{% for item in all %}
+    <p>{{item.fname}}</p>
+    <p>{{item.lname}}</p>
+    <p>{{item.age}}</p>
+{% endfor %}
